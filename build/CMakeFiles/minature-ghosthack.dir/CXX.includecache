@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/net.h
+iostream
+-
+vector
+-
+cassert
+-
+neuron.h
+../include/neuron.h
+
+../include/neuron.h
+vector
+-
+cstdlib
+-
+
+/home/john/Projects/minature-ghosthack/src/net.cpp
+net.h
+/home/john/Projects/minature-ghosthack/src/net.h
+

@@ -1,0 +1,1 @@
+/home/john/Projects/minature-ghosthack/build/CMakeFiles/minature-ghosthack.dir
